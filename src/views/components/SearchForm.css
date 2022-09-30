@@ -1,0 +1,14 @@
+.search-form{
+    display: flex;
+    padding: 0.8em;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    height: 20%;
+    position: relative;
+}
+
+.errors{
+    background-color: green;
+    position: absolute;
+}
