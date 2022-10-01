@@ -24,7 +24,7 @@ const SearchInfo = () => {
 
             {meanings?.map(meaning => (
                 <div key={uniqid()}>
-                    <p>Parth of Speech: {meaning.partOfSpeech}</p>
+                    <p>Parth of Speech: <span>{meaning.partOfSpeech}</span></p>
                     <p>Definitions:</p>
                     {meaning?.definitions.map(mean =>(
                         <p key={uniqid()}>def {meaning.definitions.indexOf(mean)+1}: <span>{mean.definition}</span></p>
