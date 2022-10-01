@@ -3,7 +3,7 @@ import React from 'react'
 import { useDispatch } from 'react-redux'
 import { getWord } from '../../redux/states/dictionary'
 import './SearchForm.css'
-import dictionaryAPILogo from '../../assets/the-dictionary-API.svg'
+import dictionaryAPILogo from '../../assets/the-Dictionary-API.svg'
 
 const SearchForm = () => {
     const dispatch = useDispatch()
