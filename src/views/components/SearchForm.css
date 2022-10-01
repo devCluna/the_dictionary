@@ -4,7 +4,7 @@
     padding: 0.8em;
     justify-content: space-around;
     align-items: center;
-    height: 20%;
+    height: 25%;
     position: relative;
 }
 
@@ -27,8 +27,21 @@ form{
     align-items: center;
 }
 
+.field-holder{
+    position: relative;
+}
+
+.search-button{
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+    color: var(--gray-color);
+    cursor: pointer;
+}
+
 input{
     background-color: transparent;
+    padding-right: 1.2em;
     outline: none;
     border: none;
     border-bottom: 1px solid var(--gray-color);

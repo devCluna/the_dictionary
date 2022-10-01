@@ -2,8 +2,9 @@ import { Field, Form, Formik } from 'formik'
 import React from 'react'
 import { useDispatch } from 'react-redux'
 import { getWord } from '../../redux/states/dictionary'
+import {BsSearch as SearchButton} from 'react-icons/bs'
 import './SearchForm.css'
-import dictionaryAPILogo from '../../assets/the-Dictionary-API.svg'
+import dictionaryAPILogo from '../../assets/the-Dictionary-API-logo.svg'
 
 const SearchForm = () => {
     const dispatch = useDispatch()
@@ -33,7 +34,7 @@ const SearchForm = () => {
             >
                 {({ errors, values, handleSubmit, handleChange, handleBlur }) => (
                     <Form onSubmit={handleSubmit} className="form">
-
+                        <div className='field-holder'>
                         <Field
                             className=""
                             type="text"
@@ -44,8 +45,13 @@ const SearchForm = () => {
                             onBlur={handleBlur}
                             placeholder='Type your word'
                         />
+                        <SearchButton onClick={
+                            ()=>dispatch(getWord(values.search))
+                        } className='search-button'/>
+                        </div>
+                        
 
-                        <button type='submit'>Search</button>
+                        {/* <button type='submit'>Search</button> */}
                         {/* {errors.search && <p className='errors'>{errors.search}</p>} */}
                     </Form>)
                 }
