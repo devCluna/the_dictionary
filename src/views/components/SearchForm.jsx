@@ -3,12 +3,14 @@ import React from 'react'
 import { useDispatch } from 'react-redux'
 import { getWord } from '../../redux/states/dictionary'
 import './SearchForm.css'
+import dictionaryAPILogo from '../../assets/the-dictionary-API.svg'
 
 const SearchForm = () => {
     const dispatch = useDispatch()
 
     return (
         <div className='search-form'>
+            <img className='logo-img' src={dictionaryAPILogo} />
             <Formik
                 initialValues={{
                     search: ""
@@ -30,7 +32,7 @@ const SearchForm = () => {
                 }}
             >
                 {({ errors, values, handleSubmit, handleChange, handleBlur }) => (
-                    <Form onSubmit={handleSubmit} className="form bg-indigo-500">
+                    <Form onSubmit={handleSubmit} className="form">
 
                         <Field
                             className=""
@@ -44,7 +46,7 @@ const SearchForm = () => {
                         />
 
                         <button type='submit'>Search</button>
-                        {errors.search && <p className='errors'>{errors.search}</p>}
+                        {/* {errors.search && <p className='errors'>{errors.search}</p>} */}
                     </Form>)
                 }
             </Formik>
