@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 *{
     box-sizing: border-box;
 }
@@ -5,11 +7,11 @@
 body{
     padding: 0;
     margin: 0;
+    
 }
 
-/* @link https://utopia.fyi/type/calculator?c=320,16,1.2,1140,24,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l */
-
 :root {
+    /* font sizes */
     --step--2: clamp(0.69rem, calc(0.59rem + 0.52vw), 0.96rem);
     --step--1: clamp(0.83rem, calc(0.69rem + 0.72vw), 1.20rem);
     --step-0: clamp(1.00rem, calc(0.80rem + 0.98vw), 1.50rem);
@@ -18,6 +20,11 @@ body{
     --step-3: clamp(1.73rem, calc(1.26rem + 2.35vw), 2.93rem);
     --step-4: clamp(2.07rem, calc(1.45rem + 3.10vw), 3.66rem);
     --step-5: clamp(2.49rem, calc(1.67rem + 4.08vw), 4.58rem);
+
+    /* global colors */
+    --primary-color: rgb(28, 38, 60);
+    --secondary-color: rgb(62, 255, 216);
+    --gray-color: rgb(255, 255, 255);
   }
 
 h1{
@@ -38,8 +45,14 @@ h5{
 
 p{
     font-size: var(--step-0);
+    color: var(--secondary-color);
+    font-weight: 600;
+    font-family: 'Roboto'
 }
 
 span{
     font-size: var(--step--1);
+    color: var(--gray-color);
+    font-weight: lighter;
+    font-family: 'Roboto'
 }
