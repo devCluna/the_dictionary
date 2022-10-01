@@ -52,6 +52,7 @@ button{
 .logo-img{
     width: 100%;
     max-width: 450px;
+    cursor: pointer;
 }
 
 button:hover, button:active{

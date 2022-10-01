@@ -10,7 +10,7 @@ const SearchForm = () => {
 
     return (
         <div className='search-form'>
-            <img className='logo-img' src={dictionaryAPILogo} />
+            <img onClick={()=>window.open('https://dictionaryapi.dev/', '_blank')} className='logo-img' src={dictionaryAPILogo} />
             <Formik
                 initialValues={{
                     search: ""
