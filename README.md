@@ -70,7 +70,7 @@
 
 [![THE_DICTIONARY_SCREENSHOT][product-screenshot]](https://the-dictionary-react.netlify.app)
 
-A github profile commit viewer 
+An English Dictionary supported by Free Dictionary API
 
 <!-- Features -->
 ## Features
