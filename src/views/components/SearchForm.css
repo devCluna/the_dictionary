@@ -1,14 +1,60 @@
 .search-form{
     display: flex;
+    flex-direction: column;
     padding: 0.8em;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    background-color: blue;
     height: 20%;
     position: relative;
 }
 
 .errors{
-    background-color: green;
-    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    bottom: 0;
+    margin-top: 0.2em;
+    font-size: var(--step--1);
+    color: var(--gray-color);
+    margin-left: 0.8em;
+}
+
+form{
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid var(--gray-color);
+    margin-right: 0.8em;
+    color: var(--gray-color);
+    font-size: var(--step-0);
+    width: 100%;
+    max-width: 400px;
+}
+
+button{
+    font-size: var(--step-0);
+    font-weight: 600;
+    background-color: aqua;
+    border: none;
+    border-radius: 25px;
+    padding: 0.2em 0.5em;
+    cursor: pointer;
+}
+
+.logo-img{
+    width: 100%;
+    max-width: 450px;
+}
+
+button:hover, button:active{
+    color: var(--gray-color);
+    text-shadow: 1px 1px 1px rgb(131, 131, 131);
 }
