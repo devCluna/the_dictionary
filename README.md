@@ -20,10 +20,10 @@
     <img src="https://raw.githubusercontent.com/devCluna/the_dictionary/master/src/assets/the-Dictionary-API-logo-secondary.svg" alt="Logo" >
   </a>
 
-  <h3 align="center">VALORANT LANDING PAGE CONCEPT</h3>
+  <h3 align="center">The Dictionary</h3>
 
   <p align="center">
-    A non oficial valorant landing page concept
+    An English Dictionary supported by Free Dictionary API
     <br />
     <a href="https://github.com/devCluna/the_dictionary"><strong>Explore the docs »</strong></a>
     <br />
