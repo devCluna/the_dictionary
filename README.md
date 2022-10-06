@@ -185,7 +185,7 @@ Distributed under the MIT License. See [LICENSE](https://github.com/devCluna/the
 [issues-url]: https://github.com/devCluna/the_dictionary/issues
 
 [license-shield]: https://img.shields.io/github/license/devCluna/the_dictionary.svg?style=for-the-badge
-[license-url]: https://github.com/TribilinYT/the_dictionary/blob/master/LICENSE
+[license-url]: https://github.com/devCluna/the_dictionary/blob/master/License 
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/devcluna/
