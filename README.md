@@ -28,7 +28,7 @@
     <a href="https://github.com/devCluna/the_dictionary"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://valorant-landing-page-concept.netlify.app">View Demo</a>
+    <a href="https://the-dictionary-react.netlify.app/">View Demo</a>
     ·
     <a href="https://github.com/devCluna/the_dictionary/issues">Report Bug</a>
     ·
